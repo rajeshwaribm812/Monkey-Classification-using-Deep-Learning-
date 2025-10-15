@@ -1,12 +1,10 @@
-# 🐒 Monkey Species Classification using Deep Learning
+🐒 Monkey Species Classification using Deep Learning
 
-## 📌 Project Overview
+📌 Project Overview
 
-This project focuses on classifying 10 species of monkeys using advanced deep learning architectures such as **InceptionV3**, **DenseNet121**, **ResNet50**, **Swin Transformer**, and **Vision Transformer (ViT)**. By leveraging **Transfer Learning**, the model achieves high accuracy with limited computational resources. The application is built using **Flask** for the front-end and **Python** for the back-end.
+This project focuses on classifying 10 species of monkeys using advanced deep learning architectures such as DenseNet121, ResNet50v2, EfficientNetv2, MobileNetv2, and Inceptionv3. By leveraging **Transfer Learning**, the model achieves high accuracy with limited computational resources. The application is built using **Flask** for the front-end and **Python** for the back-end.
 
----
-
-## 📊 Dataset
+📊 Dataset
 
 The dataset for this monkey species classifier was collected from [Kaggle](https://www.kaggle.com/datasets/utkarshsaxenadn/10-species-of-monkey-multiclass-classification/data).
 
@@ -15,7 +13,7 @@ The dataset for this monkey species classifier was collected from [Kaggle](https
 * Image resolution: **250 × 250 pixels** (RGB)
 * Balanced across **10 classes**.
 
-### 📂 Classes
+📂 Classes
 
 1. Bald Uakari
 2. Emperor Tamarin
@@ -28,22 +26,22 @@ The dataset for this monkey species classifier was collected from [Kaggle](https
 9. Vervet Monkey
 10. White Faced Saki
 
-## 🧠 Models Used
+🧠 Models Used
 
-* InceptionV3
-* DenseNet121
-* ResNet50
-* Swin Transformer
-* Vision Transformer (ViT)
+DenseNet121
+ResNet50v2
+EfficientNetv2
+MobileNetv2
+Inceptionv3
 
-## 🖥️ Software Requirements
+🖥️ Software Requirements
 
 * **Operating System:** Windows 7 or later (Linux/macOS supported)
 * **Front-End:** Flask
 * **Back-End:** Python
 * **Libraries:** TensorFlow, PyTorch, OpenCV, scikit-learn, NumPy, Matplotlib
 
-## ⚙️ How It Works
+⚙️ How It Works
 
 1. Load and preprocess image data.
 2. Resize to 250×250 pixels.
@@ -51,9 +49,12 @@ The dataset for this monkey species classifier was collected from [Kaggle](https
 4. Evaluate performance on test set.
 5. Deploy model via Flask web app.
 
-## 🚀 Features
+🚀 Features
 
 * Real-time image classification
 * Multiple deep learning model support
 * High accuracy with reduced dataset
 * Lightweight Flask interface
+
+
+
